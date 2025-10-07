@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://img.icons8.com/color/256/task.png",
+    "title": "TaskFlow",
+    "companyName": "Productive Labs",
+    "id": 1,
+    "description": "TaskFlow is the ultimate productivity app designed to help individuals and teams organize, prioritize, and execute their work effortlessly. With powerful task boards, recurring reminders, and real-time collaboration tools, you can stay in sync with your team from anywhere. The app integrates seamlessly with Google Calendar, Slack, and Notion for a unified workflow. Whether you're managing a personal project or leading a team of ten, TaskFlow makes it easy to visualize your progress and hit deadlines. Its clean interface and customizable views make productivity feel natural and enjoyable.",
+    "size": 42,
+    "reviews": 21500,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1250 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/fitness.png",
+    "title": "FitTrack Pro",
+    "companyName": "WellnessWorks",
+    "id": 2,
+    "description": "FitTrack Pro helps you take control of your fitness journey with smart tracking and AI-powered insights. Record your workouts, monitor calories, and analyze your progress with beautiful visual graphs. The app offers personalized workout routines based on your fitness goals and adapts as you improve. You can sync it with your smartwatch or fitness band to get real-time stats like heart rate and steps. With guided challenges and a vibrant community, FitTrack Pro makes staying healthy both motivating and rewarding.",
+    "size": 65,
+    "reviews": 37800,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 26000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/note.png",
+    "title": "NoteMe",
+    "companyName": "ScribbleSoft",
+    "id": 3,
+    "description": "NoteMe is a simple yet powerful note-taking app built for speed, clarity, and organization. Create notes, lists, and ideas instantly with rich text formatting and markdown support. Your data syncs securely across all devices so your thoughts are always available when inspiration strikes. With tags, folders, and advanced search, you can find any note in seconds. Whether you’re writing a journal, planning a trip, or organizing study notes, NoteMe provides the perfect space to capture your ideas beautifully.",
+    "size": 18,
+    "reviews": 9500,
+    "ratingAvg": 4.3,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3450 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/photo-editor.png",
+    "title": "PhotoCraft",
+    "companyName": "PixelForge",
+    "id": 4,
+    "description": "PhotoCraft gives you everything you need to transform your photos into stunning works of art. Apply professional-grade filters, remove backgrounds with AI, and retouch portraits effortlessly. The app includes advanced editing tools like curves, color grading, and blend modes used by professional photographers. With one-tap enhancements and templates, even beginners can create eye-catching visuals in seconds. Share directly to social media or save in high resolution — PhotoCraft puts creative power right at your fingertips.",
+    "size": 89,
+    "reviews": 72100,
+    "ratingAvg": 4.5,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 4400 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 13200 },
+      { "name": "5 star", "count": 42900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/budget.png",
+    "title": "BudgetWise",
+    "companyName": "FinMate Inc.",
+    "id": 5,
+    "description": "BudgetWise helps you manage your finances smarter with easy-to-use budgeting and tracking tools. Automatically categorize expenses, set saving goals, and get real-time spending insights. The app connects securely to your bank accounts and credit cards for seamless data syncing. With intelligent spending summaries and bill reminders, you’ll never miss a due date again. BudgetWise empowers you to build better money habits and take full control of your financial future.",
+    "size": 37,
+    "reviews": 18900,
+    "ratingAvg": 4.2,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/lotus.png",
+    "title": "MindEase",
+    "companyName": "CalmPath",
+    "id": 6,
+    "description": "MindEase brings peace and focus to your daily life through guided meditations, breathing exercises, and sleep stories. Choose from hundreds of programs tailored to reduce stress, improve focus, and promote restful sleep. The app also includes daily mindfulness reminders and progress tracking to help you stay consistent. You can customize your meditation journey with soothing ambient sounds and relaxing visuals. MindEase is your personal pocket guide to a calmer, happier, and healthier mind.",
+    "size": 54,
+    "reviews": 43200,
+    "ratingAvg": 4.9,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 6300 },
+      { "name": "5 star", "count": 33600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/language.png",
+    "title": "Langify",
+    "companyName": "Polyglot Apps",
+    "id": 7,
+    "description": "Langify makes learning a new language fun, fast, and engaging. With interactive lessons, games, and AI pronunciation correction, you’ll start speaking confidently in no time. Choose from over 20 languages including Spanish, French, Japanese, and German. The app adapts to your pace, helping you master vocabulary, grammar, and real-world conversation skills. Whether you’re traveling, studying, or expanding your career opportunities, Langify is your smart language companion for life.",
+    "size": 73,
+    "reviews": 50100,
+    "ratingAvg": 4.7,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 33600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/taxi.png",
+    "title": "RideNow",
+    "companyName": "UrbanMotion",
+    "id": 8,
+    "description": "RideNow lets you book rides instantly with safe, verified drivers available 24/7. Track your driver’s location in real-time and get accurate arrival times before you even step outside. The app offers multiple payment options, fare estimates, and priority safety features including driver ratings and emergency support. Whether you’re commuting to work or heading out at night, RideNow ensures a smooth and reliable travel experience. Save your favorite routes, earn rewards, and ride smarter with every trip.",
+    "size": 91,
+    "reviews": 61500,
+    "ratingAvg": 4.4,
+    "downloads": 8200000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4100 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 34700 }
+    ]
+  }
+]
