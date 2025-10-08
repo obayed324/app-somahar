@@ -3,6 +3,7 @@ import AllApp from '../pages/AllApp/AllApp';
 import AppsDetails from '../pages/AppsDetails/AppsDetails';
 import PageNotFound from '../pages/ErrorPage/PageNotFound';
 import Home from '../pages/Home/Home';
+import InstallApps from "../pages/InstalledApps/InstallApps";
 import Root from '../pages/Root/Root';
 
 export const router = createBrowserRouter([
@@ -27,15 +28,18 @@ export const router = createBrowserRouter([
         Component: AppsDetails,
         
         loader: async ({ params }) => {
-          const res = await fetch('AllApp.json');
+          const res = await fetch('/AllApp.json');
           const data = await res.json();
-          const singleApp = data.find(app => app.id === parseInt(params.id));
-          if (!singleApp) {
-            throw new Response("Not Found", { status: 404 });
-          }
+          const singleApp = data.find(app => app.id.toString() === params.id);
           return singleApp;
         },
+        
       },
+      {
+        path: '/installed',
+        Component: InstallApps,
+        loader: () => fetch('AllApp.json'),
+      }
     ],
   },
 ]);

@@ -1,35 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLoaderData } from 'react-router';
+import Swal from 'sweetalert2';
+import { addToStoredDB, getStoredApps } from '../../Utility/localStorage';
 import reviewsIcon from '../../assets/like.png';
 import ratingsIcon from '../../assets/icon-ratings.png';
 import downloadsIcon from '../../assets/icon-downloads.png';
+import AppNotFoundPage from '../ErrorPage/AppNotFoundPage';
 
 const AppsDetails = () => {
-  const app = useLoaderData(); 
+  const app = useLoaderData();
   const [installed, setInstalled] = useState(false);
 
-  const handleInstall = () => setInstalled(true);
+  useEffect(() => {
+    const installedApps = getStoredApps();
+    const isInstalled = installedApps.some((item) => item.id === app?.id);
+    setInstalled(isInstalled);
+  }, [app]);
 
-  
-  const formatNumber = (num) => {
-    if (!num) return 0;
-    if (typeof num === 'string' && num.includes('M')) return num;
-    if (num >= 1000000) return `${(num / 1000000).toFixed(1)}M`;
-    if (num >= 1000) return `${(num / 1000).toFixed(0)}K`;
-    return num;
+  const handleInstall = () => {
+    addToStoredDB(app);
+    setInstalled(true);
+
+    Swal.fire({
+      title: 'Installed!',
+      text: `${app.title} has been installed successfully.`,
+      icon: 'success',
+      confirmButtonColor: '#16a34a',
+    });
   };
 
-  if (!app) {
-    return (
-      <div className="text-center text-gray-600 mt-10">
-        App not found.
-      </div>
-    );
-  }
+  if (!app) return <AppNotFoundPage />;
 
   return (
     <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-md p-6 mt-8 border">
-      
       <div className="flex items-start gap-6">
         <img
           src={app.image}
@@ -38,13 +41,14 @@ const AppsDetails = () => {
         />
         <div className="flex-1">
           <h1 className="text-2xl font-semibold">{app.title}</h1>
-          <p className="text-blue-600 text-sm">Developed by {app.companyName}</p>
+          <p className="text-blue-600 text-sm">
+            <span className="text-gray-500">Developed by:</span> {app.companyName}
+          </p>
 
-          
           <div className="flex items-center gap-6 mt-3 text-gray-700">
             <div className="flex items-center gap-2">
               <img src={downloadsIcon} alt="downloads" className="w-5 h-5" />
-              <span>{formatNumber(app.downloads)}</span>
+              <span>{app.downloads}</span>
             </div>
             <div className="flex items-center gap-2">
               <img src={ratingsIcon} alt="ratings" className="w-5 h-5" />
@@ -52,7 +56,7 @@ const AppsDetails = () => {
             </div>
             <div className="flex items-center gap-2">
               <img src={reviewsIcon} alt="reviews" className="w-5 h-5" />
-              <span>{formatNumber(app.reviews)} Reviews</span>
+              <span>{app.reviews} Reviews</span>
             </div>
           </div>
 
@@ -71,38 +75,10 @@ const AppsDetails = () => {
         </div>
       </div>
 
-      {/* Ratings */}
-      <div className="mt-8">
-        <h2 className="text-lg font-semibold mb-3">Ratings</h2>
-        {app.ratings
-          ?.slice()
-          .reverse()
-          .map((rating) => (
-            <div key={rating.name} className="flex items-center mb-2">
-              <span className="w-16 text-sm">{rating.name}</span>
-              <div className="flex-1 bg-gray-200 rounded-full h-3 mx-2">
-                <div
-                  className="bg-orange-400 h-3 rounded-full"
-                  style={{
-                    width: `${
-                      (rating.count /
-                        Math.max(...app.ratings.map((r) => r.count))) *
-                      100
-                    }%`,
-                  }}
-                ></div>
-              </div>
-              <span className="text-sm text-gray-600">{rating.count}</span>
-            </div>
-          ))}
-      </div>
-
       {/* Description */}
       <div className="mt-6">
         <h2 className="text-lg font-semibold mb-2">Description</h2>
-        <p className="text-gray-700 text-sm leading-relaxed">
-          {app.description}
-        </p>
+        <p className="text-gray-700 text-sm leading-relaxed">{app.description}</p>
       </div>
     </div>
   );

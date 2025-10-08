@@ -7,7 +7,7 @@ const Apps = ({ trendAppPromise }) => {
     return (
         <div>
             <div className="px-20 sm:px-8 lg:px-12 py-12 max-w-7xl mx-auto">
-                {/* Header */}
+                
                 <div className="text-center mb-16">
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
                         Trending Apps
