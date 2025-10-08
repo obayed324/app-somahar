@@ -33,6 +33,7 @@ const AppsDetails = () => {
 
   return (
     <div className="max-w-3xl mx-auto bg-white rounded-2xl shadow-md p-6 mt-8 border">
+      {/* Header Section */}
       <div className="flex items-start gap-6">
         <img
           src={app.image}
@@ -45,6 +46,7 @@ const AppsDetails = () => {
             <span className="text-gray-500">Developed by:</span> {app.companyName}
           </p>
 
+          {/* Stats */}
           <div className="flex items-center gap-6 mt-3 text-gray-700">
             <div className="flex items-center gap-2">
               <img src={downloadsIcon} alt="downloads" className="w-5 h-5" />
@@ -74,6 +76,34 @@ const AppsDetails = () => {
           </button>
         </div>
       </div>
+
+      {/* ✅ Ratings Bar Graph */}
+      {app.ratings && app.ratings.length > 0 && (
+        <div className="mt-8">
+          <h2 className="text-lg font-semibold mb-3">Ratings Breakdown</h2>
+          {app.ratings
+            .slice()
+            .reverse()
+            .map((rating) => (
+              <div key={rating.name} className="flex items-center mb-2">
+                <span className="w-16 text-sm">{rating.name}</span>
+                <div className="flex-1 bg-gray-200 rounded-full h-3 mx-2">
+                  <div
+                    className="bg-orange-400 h-3 rounded-full"
+                    style={{
+                      width: `${
+                        (rating.count /
+                          Math.max(...app.ratings.map((r) => r.count))) *
+                        100
+                      }%`,
+                    }}
+                  ></div>
+                </div>
+                <span className="text-sm text-gray-600">{rating.count}</span>
+              </div>
+            ))}
+        </div>
+      )}
 
       {/* Description */}
       <div className="mt-6">
