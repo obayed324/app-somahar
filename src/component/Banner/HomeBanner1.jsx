@@ -2,10 +2,11 @@ import React from "react";
 import appStore from "../../assets/AppStore.png";
 import playStore from "../../assets/playstore.png";
 import hero from "../../assets/hero.png"
+
 const HomeBanner1 = () => {
     return (
         <div className="w-full overflow-hidden">
-            {/* HERO SECTION */}
+            
             <div className="max-w-[1140px] mx-auto px-4 sm:px-6 md:px-8 text-center">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[72px] font-semibold leading-tight mt-10">
                     We Build <br />
@@ -44,7 +45,7 @@ const HomeBanner1 = () => {
                 </div>
             </div>
 
-            {/* HERO IMAGE */}
+            
             <div className="w-full flex justify-center mt-10">
                 <img
                     className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[550px] object-contain"
@@ -88,6 +89,9 @@ const HomeBanner1 = () => {
                     </div>
                 </div>
             </div>
+
+
+             
         </div>
 
     );

@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import gitHub from '../../assets/github.png';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router';
 const Navbar = () => {
     const links = <>
-        <li className='m-3'>Home</li>
-        <li className='m-3'>Apps</li>
-        <li className='m-3'>Installation</li>
+        
+        <NavLink to='/' className={'mr-3'}>Home</NavLink>
+        <NavLink to='/app' className={'mr-3'}>Apps</NavLink>
+        <NavLink to='/' className={'mr-3'}>Installation</NavLink>  
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">

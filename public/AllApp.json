@@ -358,6 +358,150 @@
         { "name": "4 star", "count": 7800 },
         { "name": "5 star", "count": 22200 }
       ]
+    },
+    {
+      "image": "https://img.icons8.com/color/256/task.png",
+      "title": "TaskFlow",
+      "companyName": "Productive Labs",
+      "id": 21,
+      "description": "TaskFlow is the ultimate productivity app to help individuals and teams organize, prioritize, and execute their work effortlessly. With task boards, recurring reminders, and real-time collaboration tools, stay in sync with your team anywhere. Integrates with Google Calendar, Slack, and Notion. Perfect for personal projects or managing a team of ten. Clean interface, customizable views, and smooth workflow make productivity enjoyable and natural.",
+      "size": 42,
+      "reviews": 21500,
+      "ratingAvg": 4.6,
+      "downloads": "1.2M",
+      "ratings": [
+        { "name": "1 star", "count": 850 },
+        { "name": "2 star", "count": 1250 },
+        { "name": "3 star", "count": 3200 },
+        { "name": "4 star", "count": 5200 },
+        { "name": "5 star", "count": 11200 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/Ps73DkF6/fit-Track-Pro.png",
+      "title": "FitTrack Pro",
+      "companyName": "WellnessWorks",
+      "id": 22,
+      "description": "FitTrack Pro helps you take control of your fitness journey with AI-powered insights. Record workouts, monitor calories, and analyze progress with visual graphs. Offers personalized routines and syncs with smartwatches for real-time stats. Guided challenges and a community make staying healthy motivating and fun. Track heart rate, steps, and more to reach fitness goals effectively.",
+      "size": 65,
+      "reviews": 37800,
+      "ratingAvg": 4.8,
+      "downloads": "2.5M",
+      "ratings": [
+        { "name": "1 star", "count": 600 },
+        { "name": "2 star", "count": 900 },
+        { "name": "3 star", "count": 2800 },
+        { "name": "4 star", "count": 7500 },
+        { "name": "5 star", "count": 26000 }
+      ]
+    },
+    {
+      "image": "https://img.icons8.com/color/256/note.png",
+      "title": "NoteMe",
+      "companyName": "ScribbleSoft",
+      "id": 23,
+      "description": "NoteMe is a fast, clear, and organized note-taking app. Create notes, lists, and ideas instantly with markdown support. Sync data across devices. Organize thoughts with tags, folders, and search. Perfect for journaling, planning trips, or study notes. Provides a beautiful space to capture ideas and stay organized effortlessly.",
+      "size": 18,
+      "reviews": 9500,
+      "ratingAvg": 4.3,
+      "downloads": "820K",
+      "ratings": [
+        { "name": "1 star", "count": 700 },
+        { "name": "2 star", "count": 850 },
+        { "name": "3 star", "count": 1600 },
+        { "name": "4 star", "count": 2900 },
+        { "name": "5 star", "count": 3450 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/qMPQ3JG5/photocarft.png",
+      "title": "PhotoCraft",
+      "companyName": "PixelForge",
+      "id": 24,
+      "description": "PhotoCraft transforms your photos into stunning artwork. Professional-grade filters, AI background removal, and portrait retouching included. Advanced tools like curves, color grading, and blend modes used by photographers. One-tap enhancements and templates for beginners. Share to social media or save high-res images easily. Creative power at your fingertips.",
+      "size": 89,
+      "reviews": 72100,
+      "ratingAvg": 4.5,
+      "downloads": "5.6M",
+      "ratings": [
+        { "name": "1 star", "count": 3100 },
+        { "name": "2 star", "count": 4400 },
+        { "name": "3 star", "count": 8500 },
+        { "name": "4 star", "count": 13200 },
+        { "name": "5 star", "count": 42900 }
+      ]
+    },
+    {
+      "image": "https://img.icons8.com/color/256/budget.png",
+      "title": "BudgetWise",
+      "companyName": "FinMate Inc.",
+      "id": 25,
+      "description": "BudgetWise helps you manage finances smartly. Automatic categorization, saving goals, and real-time spending insights. Connects to bank accounts securely. Intelligent summaries and bill reminders keep you on track. Build better money habits and take full control of your financial future effortlessly.",
+      "size": 37,
+      "reviews": 18900,
+      "ratingAvg": 4.2,
+      "downloads": "2.1M",
+      "ratings": [
+        { "name": "1 star", "count": 1600 },
+        { "name": "2 star", "count": 1800 },
+        { "name": "3 star", "count": 2900 },
+        { "name": "4 star", "count": 4600 },
+        { "name": "5 star", "count": 9000 }
+      ]
+    },
+    {
+      "image": "https://img.icons8.com/color/256/lotus.png",
+      "title": "MindEase",
+      "companyName": "CalmPath",
+      "id": 26,
+      "description": "MindEase brings peace and focus to daily life through guided meditations, breathing exercises, and sleep stories. Hundreds of programs tailored to reduce stress, improve focus, and promote restful sleep. Daily mindfulness reminders and progress tracking. Customize your journey with ambient sounds and visuals. Your personal guide to a calmer, happier mind.",
+      "size": 54,
+      "reviews": 43200,
+      "ratingAvg": 4.9,
+      "downloads": "4.8M",
+      "ratings": [
+        { "name": "1 star", "count": 300 },
+        { "name": "2 star", "count": 600 },
+        { "name": "3 star", "count": 2100 },
+        { "name": "4 star", "count": 6300 },
+        { "name": "5 star", "count": 33600 }
+      ]
+    },
+    {
+      "image": "https://img.icons8.com/color/256/language.png",
+      "title": "Langify",
+      "companyName": "Polyglot Apps",
+      "id": 27,
+      "description": "Langify makes learning a new language fun and engaging. Interactive lessons, games, and AI pronunciation correction. Supports 20+ languages. App adapts to your pace to master vocabulary, grammar, and conversation. Ideal for travel, study, or career growth. Your smart language companion for life.",
+      "size": 73,
+      "reviews": 50100,
+      "ratingAvg": 4.7,
+      "downloads": "3.9M",
+      "ratings": [
+        { "name": "1 star", "count": 1100 },
+        { "name": "2 star", "count": 1900 },
+        { "name": "3 star", "count": 4200 },
+        { "name": "4 star", "count": 9200 },
+        { "name": "5 star", "count": 33600 }
+      ]
+    },
+    {
+      "image": "https://img.icons8.com/color/256/taxi.png",
+      "title": "RideNow",
+      "companyName": "UrbanMotion",
+      "id": 28,
+      "description": "RideNow lets you book rides instantly with safe drivers available 24/7. Track driver location in real-time. Multiple payment options and fare estimates. Priority safety features including ratings and emergency support. Save favorite routes, earn rewards, and enjoy smooth, reliable travel every time.",
+      "size": 91,
+      "reviews": 61500,
+      "ratingAvg": 4.4,
+      "downloads": "8.2M",
+      "ratings": [
+        { "name": "1 star", "count": 5000 },
+        { "name": "2 star", "count": 4100 },
+        { "name": "3 star", "count": 7200 },
+        { "name": "4 star", "count": 10500 },
+        { "name": "5 star", "count": 34700 }
+      ]
     }
   ]
   

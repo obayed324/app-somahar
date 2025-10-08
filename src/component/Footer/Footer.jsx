@@ -4,7 +4,7 @@ import footerLogo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#011630] text-white py-8 px-4 sm:px-6 lg:px-8 mt-0 mb-0">
+    <footer className="bg-[#011630] text-white py-8 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-[900px] mx-auto">
         
         <div className="flex flex-col sm:flex-row justify-between items-center border-b border-gray-700 pb-6 gap-6 sm:gap-0">
@@ -18,7 +18,7 @@ const Footer = () => {
             <h2 className="text-lg font-semibold tracking-wide">HERO.IO</h2>
           </div>
 
-          {/* Social Links */}
+          
           <div className="text-center sm:text-right">
             <p className="text-sm text-gray-300 mb-2">Social Links</p>
             <div className="flex justify-center sm:justify-end gap-3">
