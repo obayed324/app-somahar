@@ -16,12 +16,12 @@ export const router = createBrowserRouter([
         index: true,
         path: '/',
         Component: Home,
-        loader: () => fetch('TrendApp.json'),
+        loader: () => fetch('/TrendApp.json'),
       },
       {
         path: '/app',
         Component: AllApp,
-        loader: () => fetch('AllApp.json'),
+        loader: () => fetch('/AllApp.json'),
       },
       {
         path: "/appDetails/:id",
@@ -38,7 +38,7 @@ export const router = createBrowserRouter([
       {
         path: '/installed',
         Component: InstallApps,
-        loader: () => fetch('AllApp.json'),
+        loader: () => fetch('/AllApp.json'),
       }
     ],
   },

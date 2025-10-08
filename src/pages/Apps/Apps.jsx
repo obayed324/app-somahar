@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router';
 import App from '../../component/App/App';
 
 const Apps = ({ trendAppPromise }) => {
-    const navigate = useNavigate();
+    
     return (
         <div>
             <div className="px-20 sm:px-8 lg:px-12 py-12 max-w-7xl mx-auto">
@@ -18,7 +18,7 @@ const Apps = ({ trendAppPromise }) => {
                 </div>
 
 
-                <Suspense fallback={<p className="text-center text-gray-500">Loading apps...</p>}>
+                <Suspense fallback={<p className="text-center text-gray-500">Loading...</p>}>
                     <div
                         className="
                                 grid 

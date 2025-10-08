@@ -4,12 +4,37 @@ import gitHub from '../../assets/github.png';
 import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
-    const links = <>
-        <NavLink to='/' className='mr-3'>Home</NavLink>
-        <NavLink to='/app' className='mr-3'>Apps</NavLink>
-        <NavLink to='/installed' className='mr-3'>Installation</NavLink>  
-    </>;
 
+    const links = (
+        <>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `mr-3 ${isActive ? 'text-primary border-b-2 border-primary' : 'text-black'}`
+            }
+          >
+            Home
+          </NavLink>
+      
+          <NavLink
+            to="/app"
+            className={({ isActive }) =>
+              `mr-3 ${isActive ? 'text-primary border-b-2 border-primary' : 'text-black'}`
+            }
+          >
+            Apps
+          </NavLink>
+      
+          <NavLink
+            to="/installed"
+            className={({ isActive }) =>
+              `mr-3 ${isActive ? 'text-primary border-b-2 border-primary' : 'text-black'}`
+            }
+          >
+            Installation
+          </NavLink>
+        </>)
+    
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
