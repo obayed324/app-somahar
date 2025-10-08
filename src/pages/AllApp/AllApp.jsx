@@ -16,7 +16,7 @@ const AllApp = () => {
 
         setLoading(true);
 
-        // Simulate a short delay for loader animation
+        
         const timeout = setTimeout(() => {
             const filtered = allApp.filter((app) =>
                 app.title.toLowerCase().includes(searchTerm.toLowerCase())

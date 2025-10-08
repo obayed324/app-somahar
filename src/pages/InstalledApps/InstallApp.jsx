@@ -1,4 +1,5 @@
 import React from "react";
+import Swal from "sweetalert2";
 import starIcon from "../../assets/icon-ratings.png";
 import downloadIcon from "../../assets/icon-downloads.png";
 import { removeFromStoredDB } from "../../Utility/localStorage";
@@ -6,7 +7,13 @@ import { removeFromStoredDB } from "../../Utility/localStorage";
 const InstallApp = ({ app, onUninstall }) => {
   const handleUninstall = () => {
     removeFromStoredDB(app.id);
-    onUninstall(app.id); // notify parent to update UI
+    onUninstall(app.id); 
+    Swal.fire({
+      title: 'Uninstalled!',
+      text: `${app.title} has been uninstalled successfully.`,
+      icon: 'success',
+      confirmButtonColor: '#16a34a',
+    });
   };
 
   return (
