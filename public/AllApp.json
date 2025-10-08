@@ -1,507 +1,926 @@
 [
-    {
-      "image": "https://img.icons8.com/color/256/task.png",
-      "title": "TaskFlow",
-      "companyName": "Productive Labs",
-      "id": 1,
-      "description": "TaskFlow helps you manage projects efficiently with drag-and-drop task boards, reminders, and collaboration tools. Sync with Google Calendar, assign tasks, and track progress visually. Perfect for teams or individuals seeking better workflow management and productivity insights.",
-      "size": 42,
-      "reviews": 21500,
-      "ratingAvg": 4.6,
-      "downloads": 1200000,
-      "ratings": [
-        { "name": "1 star", "count": 850 },
-        { "name": "2 star", "count": 1250 },
-        { "name": "3 star", "count": 3200 },
-        { "name": "4 star", "count": 5200 },
-        { "name": "5 star", "count": 11200 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/fitness.png",
-      "title": "FitTrack Pro",
-      "companyName": "WellnessWorks",
-      "id": 2,
-      "description": "FitTrack Pro tracks your workouts, calories, and heart rate in real time. The AI coach adapts routines based on your fitness goals and progress. Stay motivated with achievements and a vibrant health community. Works perfectly with all popular wearables.",
-      "size": 65,
-      "reviews": 37800,
-      "ratingAvg": 4.8,
-      "downloads": 2500000,
-      "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 900 },
-        { "name": "3 star", "count": 2800 },
-        { "name": "4 star", "count": 7500 },
-        { "name": "5 star", "count": 26000 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/note.png",
-      "title": "NoteMe",
-      "companyName": "ScribbleSoft",
-      "id": 3,
-      "description": "NoteMe offers a clean space for your ideas, lists, and sketches. Organize notes with folders, tags, and markdown formatting. Cloud sync keeps your thoughts safe across devices. Perfect for students, writers, and creatives on the go.",
-      "size": 18,
-      "reviews": 9500,
-      "ratingAvg": 4.3,
-      "downloads": 820000,
-      "ratings": [
-        { "name": "1 star", "count": 700 },
-        { "name": "2 star", "count": 850 },
-        { "name": "3 star", "count": 1600 },
-        { "name": "4 star", "count": 2900 },
-        { "name": "5 star", "count": 3450 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/photo-editor.png",
-      "title": "PhotoCraft",
-      "companyName": "PixelForge",
-      "id": 4,
-      "description": "PhotoCraft brings professional photo editing to your phone. Enjoy advanced filters, background removal, and beauty tools powered by AI. Export your creations in high quality and share instantly across platforms.",
-      "size": 89,
-      "reviews": 72100,
-      "ratingAvg": 4.5,
-      "downloads": 5600000,
-      "ratings": [
-        { "name": "1 star", "count": 3100 },
-        { "name": "2 star", "count": 4400 },
-        { "name": "3 star", "count": 8500 },
-        { "name": "4 star", "count": 13200 },
-        { "name": "5 star", "count": 42900 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/budget.png",
-      "title": "BudgetWise",
-      "companyName": "FinMate Inc.",
-      "id": 5,
-      "description": "BudgetWise helps you track spending, create budgets, and save smarter. With visual analytics, bill reminders, and AI suggestions, you can finally take full control of your money and reach your financial goals with confidence.",
-      "size": 37,
-      "reviews": 18900,
-      "ratingAvg": 4.2,
-      "downloads": 2100000,
-      "ratings": [
-        { "name": "1 star", "count": 1600 },
-        { "name": "2 star", "count": 1800 },
-        { "name": "3 star", "count": 2900 },
-        { "name": "4 star", "count": 4600 },
-        { "name": "5 star", "count": 9000 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/lotus.png",
-      "title": "MindEase",
-      "companyName": "CalmPath",
-      "id": 6,
-      "description": "MindEase offers guided meditations, breathing exercises, and mindfulness tools. Reduce stress, improve focus, and sleep better with programs crafted by experts. Track your journey toward mental clarity and well-being.",
-      "size": 54,
-      "reviews": 43200,
-      "ratingAvg": 4.9,
-      "downloads": 4800000,
-      "ratings": [
-        { "name": "1 star", "count": 300 },
-        { "name": "2 star", "count": 600 },
-        { "name": "3 star", "count": 2100 },
-        { "name": "4 star", "count": 6300 },
-        { "name": "5 star", "count": 33600 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/language.png",
-      "title": "Langify",
-      "companyName": "Polyglot Apps",
-      "id": 7,
-      "description": "Langify makes language learning easy and interactive with gamified lessons and AI pronunciation. Choose from over 20 languages, track progress, and practice with global learners in real-time challenges.",
-      "size": 73,
-      "reviews": 50100,
-      "ratingAvg": 4.7,
-      "downloads": 3900000,
-      "ratings": [
-        { "name": "1 star", "count": 1100 },
-        { "name": "2 star", "count": 1900 },
-        { "name": "3 star", "count": 4200 },
-        { "name": "4 star", "count": 9200 },
-        { "name": "5 star", "count": 33600 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/taxi.png",
-      "title": "RideNow",
-      "companyName": "UrbanMotion",
-      "id": 8,
-      "description": "RideNow connects you with safe and reliable drivers anytime, anywhere. Track rides in real-time, estimate fares, and choose from multiple vehicle options. Travel securely and efficiently with just one tap.",
-      "size": 91,
-      "reviews": 61500,
-      "ratingAvg": 4.4,
-      "downloads": 8200000,
-      "ratings": [
-        { "name": "1 star", "count": 5000 },
-        { "name": "2 star", "count": 4100 },
-        { "name": "3 star", "count": 7200 },
-        { "name": "4 star", "count": 10500 },
-        { "name": "5 star", "count": 34700 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/music.png",
-      "title": "TuneSpace",
-      "companyName": "SoundSphere",
-      "id": 9,
-      "description": "TuneSpace is your personalized music universe. Stream, discover, and organize playlists based on mood and activity. Enjoy lossless audio and daily mixes crafted just for you.",
-      "size": 84,
-      "reviews": 83500,
-      "ratingAvg": 4.7,
-      "downloads": 10500000,
-      "ratings": [
-        { "name": "1 star", "count": 3000 },
-        { "name": "2 star", "count": 4200 },
-        { "name": "3 star", "count": 9100 },
-        { "name": "4 star", "count": 14200 },
-        { "name": "5 star", "count": 53000 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/weather.png",
-      "title": "SkyCast",
-      "companyName": "MeteoTech",
-      "id": 10,
-      "description": "SkyCast delivers accurate weather forecasts with live radar maps, alerts, and widgets. Get hourly, daily, and 10-day predictions powered by satellite data. Stay prepared for any weather condition anywhere in the world.",
-      "size": 48,
-      "reviews": 21800,
-      "ratingAvg": 4.5,
-      "downloads": 2600000,
-      "ratings": [
-        { "name": "1 star", "count": 800 },
-        { "name": "2 star", "count": 1300 },
-        { "name": "3 star", "count": 2700 },
-        { "name": "4 star", "count": 5100 },
-        { "name": "5 star", "count": 11700 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/shopping-bag.png",
-      "title": "ShopMate",
-      "companyName": "Cartify Digital",
-      "id": 11,
-      "description": "ShopMate brings all your favorite brands into one place. Browse daily deals, compare prices, and track your deliveries with real-time updates. Get exclusive coupons and rewards every time you shop.",
-      "size": 59,
-      "reviews": 43700,
-      "ratingAvg": 4.3,
-      "downloads": 7400000,
-      "ratings": [
-        { "name": "1 star", "count": 3100 },
-        { "name": "2 star", "count": 4500 },
-        { "name": "3 star", "count": 7000 },
-        { "name": "4 star", "count": 10400 },
-        { "name": "5 star", "count": 18700 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/news.png",
-      "title": "DailyScope",
-      "companyName": "InfoStream",
-      "id": 12,
-      "description": "Stay informed with DailyScope — your customizable news companion. Get curated headlines, live updates, and personalized categories from trusted sources around the world. Read smarter, not longer.",
-      "size": 41,
-      "reviews": 26500,
-      "ratingAvg": 4.4,
-      "downloads": 1900000,
-      "ratings": [
-        { "name": "1 star", "count": 900 },
-        { "name": "2 star", "count": 1300 },
-        { "name": "3 star", "count": 3400 },
-        { "name": "4 star", "count": 6100 },
-        { "name": "5 star", "count": 14800 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/movie.png",
-      "title": "CineStream",
-      "companyName": "VisionPlay Studios",
-      "id": 13,
-      "description": "CineStream lets you stream movies and shows instantly in HD and 4K. Get personalized recommendations, create watchlists, and enjoy seamless casting to your TV. Entertainment made easy.",
-      "size": 102,
-      "reviews": 95200,
-      "ratingAvg": 4.6,
-      "downloads": 12700000,
-      "ratings": [
-        { "name": "1 star", "count": 4200 },
-        { "name": "2 star", "count": 5900 },
-        { "name": "3 star", "count": 8700 },
-        { "name": "4 star", "count": 14600 },
-        { "name": "5 star", "count": 61700 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/calendar.png",
-      "title": "PlanIt",
-      "companyName": "SmartSync",
-      "id": 14,
-      "description": "PlanIt combines your schedule, reminders, and meetings into a single smart calendar. It automatically syncs across devices and integrates with Zoom, Teams, and Outlook. Stay organized effortlessly.",
-      "size": 39,
-      "reviews": 18200,
-      "ratingAvg": 4.5,
-      "downloads": 1600000,
-      "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 800 },
-        { "name": "3 star", "count": 1900 },
-        { "name": "4 star", "count": 4100 },
-        { "name": "5 star", "count": 10800 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/camera.png",
-      "title": "SnapJoy",
-      "companyName": "PixArt Studio",
-      "id": 15,
-      "description": "SnapJoy is a smart camera app that enhances your shots in real time. Capture crisp, vibrant photos with AI scene detection and instant retouching. Perfect for photographers who love simplicity and power.",
-      "size": 64,
-      "reviews": 57300,
-      "ratingAvg": 4.6,
-      "downloads": 6600000,
-      "ratings": [
-        { "name": "1 star", "count": 2400 },
-        { "name": "2 star", "count": 3100 },
-        { "name": "3 star", "count": 6400 },
-        { "name": "4 star", "count": 9600 },
-        { "name": "5 star", "count": 35800 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/education.png",
-      "title": "EduLink",
-      "companyName": "LearnSphere",
-      "id": 16,
-      "description": "EduLink connects students and teachers in one interactive learning hub. Join live sessions, submit assignments, and track progress easily. Designed for schools, tutors, and lifelong learners.",
-      "size": 77,
-      "reviews": 27600,
-      "ratingAvg": 4.8,
-      "downloads": 3200000,
-      "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 900 },
-        { "name": "3 star", "count": 2600 },
-        { "name": "4 star", "count": 6300 },
-        { "name": "5 star", "count": 18200 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/chat.png",
-      "title": "ChatZone",
-      "companyName": "Connectify",
-      "id": 17,
-      "description": "ChatZone keeps conversations fast, private, and fun. Enjoy secure messaging, media sharing, and group chats with no limits. Express yourself with custom themes and emojis.",
-      "size": 58,
-      "reviews": 78500,
-      "ratingAvg": 4.5,
-      "downloads": 9100000,
-      "ratings": [
-        { "name": "1 star", "count": 2900 },
-        { "name": "2 star", "count": 4300 },
-        { "name": "3 star", "count": 8000 },
-        { "name": "4 star", "count": 12800 },
-        { "name": "5 star", "count": 50400 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/map.png",
-      "title": "TripMate",
-      "companyName": "ExploreNow",
-      "id": 18,
-      "description": "TripMate is your ultimate travel planner. Discover destinations, create itineraries, and book hotels directly. Offline maps and travel tips keep you safe and informed wherever you go.",
-      "size": 88,
-      "reviews": 46700,
-      "ratingAvg": 4.6,
-      "downloads": 5400000,
-      "ratings": [
-        { "name": "1 star", "count": 1800 },
-        { "name": "2 star", "count": 2700 },
-        { "name": "3 star", "count": 5200 },
-        { "name": "4 star", "count": 9600 },
-        { "name": "5 star", "count": 27400 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/clock.png",
-      "title": "TimeBuddy",
-      "companyName": "ChronoTech",
-      "id": 19,
-      "description": "TimeBuddy helps you manage your time zones, meetings, and reminders across the globe. Ideal for remote workers and digital nomads, it ensures you never miss an appointment again.",
-      "size": 33,
-      "reviews": 12200,
-      "ratingAvg": 4.3,
-      "downloads": 970000,
-      "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 800 },
-        { "name": "3 star", "count": 1900 },
-        { "name": "4 star", "count": 3400 },
-        { "name": "5 star", "count": 5500 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/security-checked.png",
-      "title": "SafeGuard",
-      "companyName": "CyberDefend",
-      "id": 20,
-      "description": "SafeGuard protects your device with real-time antivirus scanning, VPN, and privacy tools. Keep your data secure with next-gen encryption and automatic threat detection for peace of mind.",
-      "size": 92,
-      "reviews": 37400,
-      "ratingAvg": 4.7,
-      "downloads": 7100000,
-      "ratings": [
-        { "name": "1 star", "count": 1200 },
-        { "name": "2 star", "count": 1800 },
-        { "name": "3 star", "count": 4200 },
-        { "name": "4 star", "count": 7800 },
-        { "name": "5 star", "count": 22200 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/task.png",
-      "title": "TaskFlow",
-      "companyName": "Productive Labs",
-      "id": 21,
-      "description": "TaskFlow is the ultimate productivity app to help individuals and teams organize, prioritize, and execute their work effortlessly. With task boards, recurring reminders, and real-time collaboration tools, stay in sync with your team anywhere. Integrates with Google Calendar, Slack, and Notion. Perfect for personal projects or managing a team of ten. Clean interface, customizable views, and smooth workflow make productivity enjoyable and natural.",
-      "size": 42,
-      "reviews": 21500,
-      "ratingAvg": 4.6,
-      "downloads": "1.2M",
-      "ratings": [
-        { "name": "1 star", "count": 850 },
-        { "name": "2 star", "count": 1250 },
-        { "name": "3 star", "count": 3200 },
-        { "name": "4 star", "count": 5200 },
-        { "name": "5 star", "count": 11200 }
-      ]
-    },
-    {
-      "image": "https://i.ibb.co.com/Ps73DkF6/fit-Track-Pro.png",
-      "title": "FitTrack Pro",
-      "companyName": "WellnessWorks",
-      "id": 22,
-      "description": "FitTrack Pro helps you take control of your fitness journey with AI-powered insights. Record workouts, monitor calories, and analyze progress with visual graphs. Offers personalized routines and syncs with smartwatches for real-time stats. Guided challenges and a community make staying healthy motivating and fun. Track heart rate, steps, and more to reach fitness goals effectively.",
-      "size": 65,
-      "reviews": 37800,
-      "ratingAvg": 4.8,
-      "downloads": "2.5M",
-      "ratings": [
-        { "name": "1 star", "count": 600 },
-        { "name": "2 star", "count": 900 },
-        { "name": "3 star", "count": 2800 },
-        { "name": "4 star", "count": 7500 },
-        { "name": "5 star", "count": 26000 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/note.png",
-      "title": "NoteMe",
-      "companyName": "ScribbleSoft",
-      "id": 23,
-      "description": "NoteMe is a fast, clear, and organized note-taking app. Create notes, lists, and ideas instantly with markdown support. Sync data across devices. Organize thoughts with tags, folders, and search. Perfect for journaling, planning trips, or study notes. Provides a beautiful space to capture ideas and stay organized effortlessly.",
-      "size": 18,
-      "reviews": 9500,
-      "ratingAvg": 4.3,
-      "downloads": "820K",
-      "ratings": [
-        { "name": "1 star", "count": 700 },
-        { "name": "2 star", "count": 850 },
-        { "name": "3 star", "count": 1600 },
-        { "name": "4 star", "count": 2900 },
-        { "name": "5 star", "count": 3450 }
-      ]
-    },
-    {
-      "image": "https://i.ibb.co.com/qMPQ3JG5/photocarft.png",
-      "title": "PhotoCraft",
-      "companyName": "PixelForge",
-      "id": 24,
-      "description": "PhotoCraft transforms your photos into stunning artwork. Professional-grade filters, AI background removal, and portrait retouching included. Advanced tools like curves, color grading, and blend modes used by photographers. One-tap enhancements and templates for beginners. Share to social media or save high-res images easily. Creative power at your fingertips.",
-      "size": 89,
-      "reviews": 72100,
-      "ratingAvg": 4.5,
-      "downloads": "5.6M",
-      "ratings": [
-        { "name": "1 star", "count": 3100 },
-        { "name": "2 star", "count": 4400 },
-        { "name": "3 star", "count": 8500 },
-        { "name": "4 star", "count": 13200 },
-        { "name": "5 star", "count": 42900 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/budget.png",
-      "title": "BudgetWise",
-      "companyName": "FinMate Inc.",
-      "id": 25,
-      "description": "BudgetWise helps you manage finances smartly. Automatic categorization, saving goals, and real-time spending insights. Connects to bank accounts securely. Intelligent summaries and bill reminders keep you on track. Build better money habits and take full control of your financial future effortlessly.",
-      "size": 37,
-      "reviews": 18900,
-      "ratingAvg": 4.2,
-      "downloads": "2.1M",
-      "ratings": [
-        { "name": "1 star", "count": 1600 },
-        { "name": "2 star", "count": 1800 },
-        { "name": "3 star", "count": 2900 },
-        { "name": "4 star", "count": 4600 },
-        { "name": "5 star", "count": 9000 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/lotus.png",
-      "title": "MindEase",
-      "companyName": "CalmPath",
-      "id": 26,
-      "description": "MindEase brings peace and focus to daily life through guided meditations, breathing exercises, and sleep stories. Hundreds of programs tailored to reduce stress, improve focus, and promote restful sleep. Daily mindfulness reminders and progress tracking. Customize your journey with ambient sounds and visuals. Your personal guide to a calmer, happier mind.",
-      "size": 54,
-      "reviews": 43200,
-      "ratingAvg": 4.9,
-      "downloads": "4.8M",
-      "ratings": [
-        { "name": "1 star", "count": 300 },
-        { "name": "2 star", "count": 600 },
-        { "name": "3 star", "count": 2100 },
-        { "name": "4 star", "count": 6300 },
-        { "name": "5 star", "count": 33600 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/language.png",
-      "title": "Langify",
-      "companyName": "Polyglot Apps",
-      "id": 27,
-      "description": "Langify makes learning a new language fun and engaging. Interactive lessons, games, and AI pronunciation correction. Supports 20+ languages. App adapts to your pace to master vocabulary, grammar, and conversation. Ideal for travel, study, or career growth. Your smart language companion for life.",
-      "size": 73,
-      "reviews": 50100,
-      "ratingAvg": 4.7,
-      "downloads": "3.9M",
-      "ratings": [
-        { "name": "1 star", "count": 1100 },
-        { "name": "2 star", "count": 1900 },
-        { "name": "3 star", "count": 4200 },
-        { "name": "4 star", "count": 9200 },
-        { "name": "5 star", "count": 33600 }
-      ]
-    },
-    {
-      "image": "https://img.icons8.com/color/256/taxi.png",
-      "title": "RideNow",
-      "companyName": "UrbanMotion",
-      "id": 28,
-      "description": "RideNow lets you book rides instantly with safe drivers available 24/7. Track driver location in real-time. Multiple payment options and fare estimates. Priority safety features including ratings and emergency support. Save favorite routes, earn rewards, and enjoy smooth, reliable travel every time.",
-      "size": 91,
-      "reviews": 61500,
-      "ratingAvg": 4.4,
-      "downloads": "8.2M",
-      "ratings": [
-        { "name": "1 star", "count": 5000 },
-        { "name": "2 star", "count": 4100 },
-        { "name": "3 star", "count": 7200 },
-        { "name": "4 star", "count": 10500 },
-        { "name": "5 star", "count": 34700 }
-      ]
-    }
-  ]
-  
+  {
+    "image": "https://img.icons8.com/color/256/task.png",
+    "title": "TaskFlow",
+    "companyName": "Productive Labs",
+    "id": 1,
+    "description": "TaskFlow helps you manage projects efficiently with drag-and-drop task boards, reminders, and collaboration tools. Sync with Google Calendar, assign tasks, and track progress visually. Perfect for teams or individuals seeking better workflow management and productivity insights.",
+    "size": 42,
+    "reviews": 21500,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 850
+      },
+      {
+        "name": "2 star",
+        "count": 1250
+      },
+      {
+        "name": "3 star",
+        "count": 3200
+      },
+      {
+        "name": "4 star",
+        "count": 5200
+      },
+      {
+        "name": "5 star",
+        "count": 11200
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ps73DkF6/fit-Track-Pro.png",
+    "title": "FitTrack Pro",
+    "companyName": "WellnessWorks",
+    "id": 2,
+    "description": "FitTrack Pro tracks your workouts, calories, and heart rate in real time. The AI coach adapts routines based on your fitness goals and progress. Stay motivated with achievements and a vibrant health community. Works perfectly with all popular wearables.",
+    "size": 65,
+    "reviews": 37800,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "3 star",
+        "count": 2800
+      },
+      {
+        "name": "4 star",
+        "count": 7500
+      },
+      {
+        "name": "5 star",
+        "count": 26000
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/note.png",
+    "title": "NoteMe",
+    "companyName": "ScribbleSoft",
+    "id": 3,
+    "description": "NoteMe offers a clean space for your ideas, lists, and sketches. Organize notes with folders, tags, and markdown formatting. Cloud sync keeps your thoughts safe across devices. Perfect for students, writers, and creatives on the go.",
+    "size": 18,
+    "reviews": 9500,
+    "ratingAvg": 4.3,
+    "downloads": "820K",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 850
+      },
+      {
+        "name": "3 star",
+        "count": 1600
+      },
+      {
+        "name": "4 star",
+        "count": 2900
+      },
+      {
+        "name": "5 star",
+        "count": 3450
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMPQ3JG5/photocarft.png",
+    "title": "PhotoCraft",
+    "companyName": "PixelForge",
+    "id": 4,
+    "description": "PhotoCraft brings professional photo editing to your phone. Enjoy advanced filters, background removal, and beauty tools powered by AI. Export your creations in high quality and share instantly across platforms.",
+    "size": 89,
+    "reviews": 72100,
+    "ratingAvg": 4.5,
+    "downloads": "5.6M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3100
+      },
+      {
+        "name": "2 star",
+        "count": 4400
+      },
+      {
+        "name": "3 star",
+        "count": 8500
+      },
+      {
+        "name": "4 star",
+        "count": 13200
+      },
+      {
+        "name": "5 star",
+        "count": 42900
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/budget.png",
+    "title": "BudgetWise",
+    "companyName": "FinMate Inc.",
+    "id": 5,
+    "description": "BudgetWise helps you track spending, create budgets, and save smarter. With visual analytics, bill reminders, and AI suggestions, you can finally take full control of your money and reach your financial goals with confidence.",
+    "size": 37,
+    "reviews": 18900,
+    "ratingAvg": 4.2,
+    "downloads": "2.1M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1600
+      },
+      {
+        "name": "2 star",
+        "count": 1800
+      },
+      {
+        "name": "3 star",
+        "count": 2900
+      },
+      {
+        "name": "4 star",
+        "count": 4600
+      },
+      {
+        "name": "5 star",
+        "count": 9000
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/lotus.png",
+    "title": "MindEase",
+    "companyName": "CalmPath",
+    "id": 6,
+    "description": "MindEase offers guided meditations, breathing exercises, and mindfulness tools. Reduce stress, improve focus, and sleep better with programs crafted by experts. Track your journey toward mental clarity and well-being.",
+    "size": 54,
+    "reviews": 43200,
+    "ratingAvg": 4.9,
+    "downloads": "4.8M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "3 star",
+        "count": 2100
+      },
+      {
+        "name": "4 star",
+        "count": 6300
+      },
+      {
+        "name": "5 star",
+        "count": 33600
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/language.png",
+    "title": "Langify",
+    "companyName": "Polyglot Apps",
+    "id": 7,
+    "description": "Langify makes language learning easy and interactive with gamified lessons and AI pronunciation. Choose from over 20 languages, track progress, and practice with global learners in real-time challenges.",
+    "size": 73,
+    "reviews": 50100,
+    "ratingAvg": 4.7,
+    "downloads": "3.9M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1100
+      },
+      {
+        "name": "2 star",
+        "count": 1900
+      },
+      {
+        "name": "3 star",
+        "count": 4200
+      },
+      {
+        "name": "4 star",
+        "count": 9200
+      },
+      {
+        "name": "5 star",
+        "count": 33600
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/taxi.png",
+    "title": "RideNow",
+    "companyName": "UrbanMotion",
+    "id": 8,
+    "description": "RideNow connects you with safe and reliable drivers anytime, anywhere. Track rides in real-time, estimate fares, and choose from multiple vehicle options. Travel securely and efficiently with just one tap.",
+    "size": 91,
+    "reviews": 61500,
+    "ratingAvg": 4.4,
+    "downloads": "8.2M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 5000
+      },
+      {
+        "name": "2 star",
+        "count": 4100
+      },
+      {
+        "name": "3 star",
+        "count": 7200
+      },
+      {
+        "name": "4 star",
+        "count": 10500
+      },
+      {
+        "name": "5 star",
+        "count": 34700
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/music.png",
+    "title": "TuneSpace",
+    "companyName": "SoundSphere",
+    "id": 9,
+    "description": "TuneSpace is your personalized music universe. Stream, discover, and organize playlists based on mood and activity. Enjoy lossless audio and daily mixes crafted just for you.",
+    "size": 84,
+    "reviews": 83500,
+    "ratingAvg": 4.7,
+    "downloads": "10.5M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3000
+      },
+      {
+        "name": "2 star",
+        "count": 4200
+      },
+      {
+        "name": "3 star",
+        "count": 9100
+      },
+      {
+        "name": "4 star",
+        "count": 14200
+      },
+      {
+        "name": "5 star",
+        "count": 53000
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/weather.png",
+    "title": "SkyCast",
+    "companyName": "MeteoTech",
+    "id": 10,
+    "description": "SkyCast delivers accurate weather forecasts with live radar maps, alerts, and widgets. Get hourly, daily, and 10-day predictions powered by satellite data. Stay prepared for any weather condition anywhere in the world.",
+    "size": 48,
+    "reviews": 21800,
+    "ratingAvg": 4.5,
+    "downloads": "2.6M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1300
+      },
+      {
+        "name": "3 star",
+        "count": 2700
+      },
+      {
+        "name": "4 star",
+        "count": 5100
+      },
+      {
+        "name": "5 star",
+        "count": 11700
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/shopping-bag.png",
+    "title": "ShopMate",
+    "companyName": "Cartify Digital",
+    "id": 11,
+    "description": "ShopMate brings all your favorite brands into one place. Browse daily deals, compare prices, and track your deliveries with real-time updates. Get exclusive coupons and rewards every time you shop.",
+    "size": 59,
+    "reviews": 43700,
+    "ratingAvg": 4.3,
+    "downloads": "7.4M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3100
+      },
+      {
+        "name": "2 star",
+        "count": 4500
+      },
+      {
+        "name": "3 star",
+        "count": 7000
+      },
+      {
+        "name": "4 star",
+        "count": 10400
+      },
+      {
+        "name": "5 star",
+        "count": 18700
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/news.png",
+    "title": "DailyScope",
+    "companyName": "InfoStream",
+    "id": 12,
+    "description": "Stay informed with DailyScope — your customizable news companion. Get curated headlines, live updates, and personalized categories from trusted sources around the world. Read smarter, not longer.",
+    "size": 41,
+    "reviews": 26500,
+    "ratingAvg": 4.4,
+    "downloads": "1.9M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1300
+      },
+      {
+        "name": "3 star",
+        "count": 3400
+      },
+      {
+        "name": "4 star",
+        "count": 6100
+      },
+      {
+        "name": "5 star",
+        "count": 14800
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/movie.png",
+    "title": "CineStream",
+    "companyName": "VisionPlay Studios",
+    "id": 13,
+    "description": "CineStream lets you stream movies and shows instantly in HD and 4K. Get personalized recommendations, create watchlists, and enjoy seamless casting to your TV. Entertainment made easy.",
+    "size": 102,
+    "reviews": 95200,
+    "ratingAvg": 4.6,
+    "downloads": "12.7M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 4200
+      },
+      {
+        "name": "2 star",
+        "count": 5900
+      },
+      {
+        "name": "3 star",
+        "count": 8700
+      },
+      {
+        "name": "4 star",
+        "count": 14600
+      },
+      {
+        "name": "5 star",
+        "count": 61700
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/calendar.png",
+    "title": "PlanIt",
+    "companyName": "SmartSync",
+    "id": 14,
+    "description": "PlanIt combines your schedule, reminders, and meetings into a single smart calendar. It automatically syncs across devices and integrates with Zoom, Teams, and Outlook. Stay organized effortlessly.",
+    "size": 39,
+    "reviews": 18200,
+    "ratingAvg": 4.5,
+    "downloads": 1600000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "3 star",
+        "count": 1900
+      },
+      {
+        "name": "4 star",
+        "count": 4100
+      },
+      {
+        "name": "5 star",
+        "count": 10800
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/camera.png",
+    "title": "SnapJoy",
+    "companyName": "PixArt Studio",
+    "id": 15,
+    "description": "SnapJoy is a smart camera app that enhances your shots in real time. Capture crisp, vibrant photos with AI scene detection and instant retouching. Perfect for photographers who love simplicity and power.",
+    "size": 64,
+    "reviews": 57300,
+    "ratingAvg": 4.6,
+    "downloads": 6600000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2400
+      },
+      {
+        "name": "2 star",
+        "count": 3100
+      },
+      {
+        "name": "3 star",
+        "count": 6400
+      },
+      {
+        "name": "4 star",
+        "count": 9600
+      },
+      {
+        "name": "5 star",
+        "count": 35800
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/education.png",
+    "title": "EduLink",
+    "companyName": "LearnSphere",
+    "id": 16,
+    "description": "EduLink connects students and teachers in one interactive learning hub. Join live sessions, submit assignments, and track progress easily. Designed for schools, tutors, and lifelong learners.",
+    "size": 77,
+    "reviews": 27600,
+    "ratingAvg": 4.8,
+    "downloads": 3200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "3 star",
+        "count": 2600
+      },
+      {
+        "name": "4 star",
+        "count": 6300
+      },
+      {
+        "name": "5 star",
+        "count": 18200
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/chat.png",
+    "title": "ChatZone",
+    "companyName": "Connectify",
+    "id": 17,
+    "description": "ChatZone keeps conversations fast, private, and fun. Enjoy secure messaging, media sharing, and group chats with no limits. Express yourself with custom themes and emojis.",
+    "size": 58,
+    "reviews": 78500,
+    "ratingAvg": 4.5,
+    "downloads": 9100000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2900
+      },
+      {
+        "name": "2 star",
+        "count": 4300
+      },
+      {
+        "name": "3 star",
+        "count": 8000
+      },
+      {
+        "name": "4 star",
+        "count": 12800
+      },
+      {
+        "name": "5 star",
+        "count": 50400
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/map.png",
+    "title": "TripMate",
+    "companyName": "ExploreNow",
+    "id": 18,
+    "description": "TripMate is your ultimate travel planner. Discover destinations, create itineraries, and book hotels directly. Offline maps and travel tips keep you safe and informed wherever you go.",
+    "size": 88,
+    "reviews": 46700,
+    "ratingAvg": 4.6,
+    "downloads": 5400000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1800
+      },
+      {
+        "name": "2 star",
+        "count": 2700
+      },
+      {
+        "name": "3 star",
+        "count": 5200
+      },
+      {
+        "name": "4 star",
+        "count": 9600
+      },
+      {
+        "name": "5 star",
+        "count": 27400
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/clock.png",
+    "title": "TimeBuddy",
+    "companyName": "ChronoTech",
+    "id": 19,
+    "description": "TimeBuddy helps you manage your time zones, meetings, and reminders across the globe. Ideal for remote workers and digital nomads, it ensures you never miss an appointment again.",
+    "size": 33,
+    "reviews": 12200,
+    "ratingAvg": 4.3,
+    "downloads": 970000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "3 star",
+        "count": 1900
+      },
+      {
+        "name": "4 star",
+        "count": 3400
+      },
+      {
+        "name": "5 star",
+        "count": 5500
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/security-checked.png",
+    "title": "SafeGuard",
+    "companyName": "CyberDefend",
+    "id": 20,
+    "description": "SafeGuard protects your device with real-time antivirus scanning, VPN, and privacy tools. Keep your data secure with next-gen encryption and automatic threat detection for peace of mind.",
+    "size": 92,
+    "reviews": 37400,
+    "ratingAvg": 4.7,
+    "downloads": 7100000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1200
+      },
+      {
+        "name": "2 star",
+        "count": 1800
+      },
+      {
+        "name": "3 star",
+        "count": 4200
+      },
+      {
+        "name": "4 star",
+        "count": 7800
+      },
+      {
+        "name": "5 star",
+        "count": 22200
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/task.png",
+    "title": "TaskFlow",
+    "companyName": "Productive Labs",
+    "id": 21,
+    "description": "TaskFlow is the ultimate productivity app to help individuals and teams organize, prioritize, and execute their work effortlessly. With task boards, recurring reminders, and real-time collaboration tools, stay in sync with your team anywhere. Integrates with Google Calendar, Slack, and Notion. Perfect for personal projects or managing a team of ten. Clean interface, customizable views, and smooth workflow make productivity enjoyable and natural.",
+    "size": 42,
+    "reviews": 21500,
+    "ratingAvg": 4.6,
+    "downloads": "1.2M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 850
+      },
+      {
+        "name": "2 star",
+        "count": 1250
+      },
+      {
+        "name": "3 star",
+        "count": 3200
+      },
+      {
+        "name": "4 star",
+        "count": 5200
+      },
+      {
+        "name": "5 star",
+        "count": 11200
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ps73DkF6/fit-Track-Pro.png",
+    "title": "FitTrack Pro",
+    "companyName": "WellnessWorks",
+    "id": 22,
+    "description": "FitTrack Pro helps you take control of your fitness journey with AI-powered insights. Record workouts, monitor calories, and analyze progress with visual graphs. Offers personalized routines and syncs with smartwatches for real-time stats. Guided challenges and a community make staying healthy motivating and fun. Track heart rate, steps, and more to reach fitness goals effectively.",
+    "size": 65,
+    "reviews": 37800,
+    "ratingAvg": 4.8,
+    "downloads": "2.5M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "3 star",
+        "count": 2800
+      },
+      {
+        "name": "4 star",
+        "count": 7500
+      },
+      {
+        "name": "5 star",
+        "count": 26000
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/note.png",
+    "title": "NoteMe",
+    "companyName": "ScribbleSoft",
+    "id": 23,
+    "description": "NoteMe is a fast, clear, and organized note-taking app. Create notes, lists, and ideas instantly with markdown support. Sync data across devices. Organize thoughts with tags, folders, and search. Perfect for journaling, planning trips, or study notes. Provides a beautiful space to capture ideas and stay organized effortlessly.",
+    "size": 18,
+    "reviews": 9500,
+    "ratingAvg": 4.3,
+    "downloads": "820K",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 850
+      },
+      {
+        "name": "3 star",
+        "count": 1600
+      },
+      {
+        "name": "4 star",
+        "count": 2900
+      },
+      {
+        "name": "5 star",
+        "count": 3450
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMPQ3JG5/photocarft.png",
+    "title": "PhotoCraft",
+    "companyName": "PixelForge",
+    "id": 24,
+    "description": "PhotoCraft transforms your photos into stunning artwork. Professional-grade filters, AI background removal, and portrait retouching included. Advanced tools like curves, color grading, and blend modes used by photographers. One-tap enhancements and templates for beginners. Share to social media or save high-res images easily. Creative power at your fingertips.",
+    "size": 89,
+    "reviews": 72100,
+    "ratingAvg": 4.5,
+    "downloads": "5.6M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3100
+      },
+      {
+        "name": "2 star",
+        "count": 4400
+      },
+      {
+        "name": "3 star",
+        "count": 8500
+      },
+      {
+        "name": "4 star",
+        "count": 13200
+      },
+      {
+        "name": "5 star",
+        "count": 42900
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/budget.png",
+    "title": "BudgetWise",
+    "companyName": "FinMate Inc.",
+    "id": 25,
+    "description": "BudgetWise helps you manage finances smartly. Automatic categorization, saving goals, and real-time spending insights. Connects to bank accounts securely. Intelligent summaries and bill reminders keep you on track. Build better money habits and take full control of your financial future effortlessly.",
+    "size": 37,
+    "reviews": 18900,
+    "ratingAvg": 4.2,
+    "downloads": "2.1M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1600
+      },
+      {
+        "name": "2 star",
+        "count": 1800
+      },
+      {
+        "name": "3 star",
+        "count": 2900
+      },
+      {
+        "name": "4 star",
+        "count": 4600
+      },
+      {
+        "name": "5 star",
+        "count": 9000
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/lotus.png",
+    "title": "MindEase",
+    "companyName": "CalmPath",
+    "id": 26,
+    "description": "MindEase brings peace and focus to daily life through guided meditations, breathing exercises, and sleep stories. Hundreds of programs tailored to reduce stress, improve focus, and promote restful sleep. Daily mindfulness reminders and progress tracking. Customize your journey with ambient sounds and visuals. Your personal guide to a calmer, happier mind.",
+    "size": 54,
+    "reviews": 43200,
+    "ratingAvg": 4.9,
+    "downloads": "4.8M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "3 star",
+        "count": 2100
+      },
+      {
+        "name": "4 star",
+        "count": 6300
+      },
+      {
+        "name": "5 star",
+        "count": 33600
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/language.png",
+    "title": "Langify",
+    "companyName": "Polyglot Apps",
+    "id": 27,
+    "description": "Langify makes learning a new language fun and engaging. Interactive lessons, games, and AI pronunciation correction. Supports 20+ languages. App adapts to your pace to master vocabulary, grammar, and conversation. Ideal for travel, study, or career growth. Your smart language companion for life.",
+    "size": 73,
+    "reviews": 50100,
+    "ratingAvg": 4.7,
+    "downloads": "3.9M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1100
+      },
+      {
+        "name": "2 star",
+        "count": 1900
+      },
+      {
+        "name": "3 star",
+        "count": 4200
+      },
+      {
+        "name": "4 star",
+        "count": 9200
+      },
+      {
+        "name": "5 star",
+        "count": 33600
+      }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/taxi.png",
+    "title": "RideNow",
+    "companyName": "UrbanMotion",
+    "id": 28,
+    "description": "RideNow lets you book rides instantly with safe drivers available 24/7. Track driver location in real-time. Multiple payment options and fare estimates. Priority safety features including ratings and emergency support. Save favorite routes, earn rewards, and enjoy smooth, reliable travel every time.",
+    "size": 91,
+    "reviews": 61500,
+    "ratingAvg": 4.4,
+    "downloads": "8.2M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 5000
+      },
+      {
+        "name": "2 star",
+        "count": 4100
+      },
+      {
+        "name": "3 star",
+        "count": 7200
+      },
+      {
+        "name": "4 star",
+        "count": 10500
+      },
+      {
+        "name": "5 star",
+        "count": 34700
+      }
+    ]
+  }
+]

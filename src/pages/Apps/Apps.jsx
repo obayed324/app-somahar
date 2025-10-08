@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import App from '../../component/App/App';
 
 const Apps = ({ trendAppPromise }) => {
@@ -46,17 +46,21 @@ const Apps = ({ trendAppPromise }) => {
                     </div>
                 </Suspense>
             </div>
+            
 
-            <div className="flex justify-center mb-10">
-                <button onClick={() => navigate("apps")}
-                    className="px-12 py-2 rounded text-white font-semibold text-lg
-               bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]
-               hover:scale-105 transition-transform duration-300"
-                >
-                    Show All
-                </button>
-            </div>
+            <Link to={'/app'}>
+                <div className="flex justify-center mb-10">
+                    <button
+                        className="px-12 py-2 rounded text-white font-semibold text-lg
+                bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)]
+                hover:scale-105 transition-transform duration-300"
+                    >
+                        Show All
+                    </button>
+                </div>
 
+            </Link>
+            
 
         </div>
 
